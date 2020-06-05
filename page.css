@@ -1,0 +1,62 @@
+.body{background:url("821364.jpg") center no-repeat;
+height:100vh;
+background-size:cover;
+}
+
+.menu{
+	width:80%;
+	margin:auto;
+	
+	
+}
+.menu ul {
+	list-style:none;
+    padding:0px;
+}	
+.menu ul li{
+	float:left;
+	height:50px;
+	width:200px;
+	background-color:gray;
+    line-height:50px;
+	opacity:0.7;
+	font-size:20px;
+	text-align:center;
+	
+}
+.menu ul li ul { 
+display:none
+
+}
+.menu ul li:hover> ul { 
+display:block;
+
+}
+.menu ul li:hover{ 
+background-color:white;
+color:black;
+opacity:0.9;
+}
+
+.menu ul li a {
+	color:red;
+	text-decoration:none
+}
+.menu ul li ul li {
+	position:relative;
+	
+}
+.menu ul li ul li ul {
+	position:absolute;
+	left:200px;
+	top:0px;
+}
+
+
+
+
+
+
+
+
+
